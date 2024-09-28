@@ -1,6 +1,6 @@
-# RenewEx Converter
+# RenewEx IconSet
 
-![RenewEx](./guides/images/logo.png)
+![RenewEx Icon Set](./guides/images/logo.png)
 
 Reponsive Vector Icons for [Renew](http://renew.de/).
 The icons can adjust to fill the space of the rectangle they are placed in without violating their characteristic proportions.
