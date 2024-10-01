@@ -6,7 +6,7 @@ defmodule RenewexIconsetTest do
 
   @sample_shapes [
     {"rect", ["M 50.0 70.0H 180.0V 260.0H 50.0Z"]},
-    {"ellipse", ["M 50.0 165.0a 65.0 95.0 1 0 0  130.0 0a 65.0 95.0 1 0 0  -130.0 0"]},
+    {"ellipse", ["M 50.0 165.0a 65.0 95.0 0.0 0 0  130.0 0a 65.0 95.0 0.0 0 0  -130.0 0"]},
     {"cross",
      [
        "M 115.0 165.0 m 22.1 -28.6l 6.5 6.5l -22.1 22.1l 22.1 22.1l -6.5 6.5l " <>
@@ -28,7 +28,7 @@ defmodule RenewexIconsetTest do
     {"ellipse",
      [
        %{
-         d: "M 50.0 165.0a 65.0 95.0 1 0 0  130.0 0a 65.0 95.0 1 0 0  -130.0 0",
+         d: "M 50.0 165.0a 65.0 95.0 0.0 0 0  130.0 0a 65.0 95.0 0.0 0 0  -130.0 0",
          fill_color: "inherit",
          stroke_color: "inherit"
        }

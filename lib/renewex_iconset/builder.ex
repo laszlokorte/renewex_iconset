@@ -110,7 +110,7 @@ defmodule RenewexIconset.Builder do
               {x, y}
           end
 
-        {"#{SvgPath.svg_command(:arc, step.relative)} #{rx} #{ry} #{if(angle, do: 1, else: 0)} #{if(sweep, do: 1, else: 0)} #{if(large, do: 1, else: 0)}  #{x} #{y}",
+        {"#{SvgPath.svg_command(:arc, step.relative)} #{rx} #{ry} #{angle} #{if(sweep, do: 1, else: 0)} #{if(large, do: 1, else: 0)}  #{x} #{y}",
          SvgPath.svg_move(step.relative, current_pos, {x, y})}
 
       step.vertical != nil and step.horizontal != nil ->
