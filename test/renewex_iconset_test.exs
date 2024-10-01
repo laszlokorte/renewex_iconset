@@ -77,4 +77,15 @@ defmodule RenewexIconsetTest do
                )
     end
   end
+
+  test "all shapes" do
+    for {name, shape} <- RenewexIconset.icons_by_name() do
+      assert [_ | _] =
+               RenewexIconset.symbol_paths(
+                 shape,
+                 @example_box
+               ),
+             "#{name} is converted to list of paths"
+    end
+  end
 end
