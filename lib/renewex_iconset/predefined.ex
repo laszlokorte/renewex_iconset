@@ -25836,6 +25836,7 @@ defmodule RenewexIconset.Predefined do
               relative: false,
               steps: [
                 %{
+                  sort: 0,
                   arc: nil,
                   horizontal: %{
                     x_offset_dynamic_unit: :minsize,
@@ -25856,6 +25857,7 @@ defmodule RenewexIconset.Predefined do
                   }
                 },
                 %{
+                  sort: 1,
                   arc: nil,
                   vertical: nil,
                   horizontal: nil,
@@ -25886,6 +25888,7 @@ defmodule RenewexIconset.Predefined do
               relative: false,
               steps: [
                 %{
+                  sort: 0,
                   arc: %{
                     angle: 0,
                     large: false,
@@ -25915,6 +25918,7 @@ defmodule RenewexIconset.Predefined do
                   relative: true
                 },
                 %{
+                  sort: 1,
                   arc: %{
                     angle: 0,
                     large: false,
@@ -25968,6 +25972,7 @@ defmodule RenewexIconset.Predefined do
               relative: false,
               steps: [
                 %{
+                  sort: 0,
                   arc: nil,
                   vertical: nil,
                   horizontal: %{
@@ -25981,6 +25986,7 @@ defmodule RenewexIconset.Predefined do
                   relative: true
                 },
                 %{
+                  sort: 1,
                   arc: nil,
                   horizontal: %{
                     x_offset_dynamic_unit: :minsize,
@@ -26001,6 +26007,7 @@ defmodule RenewexIconset.Predefined do
                   }
                 },
                 %{
+                  sort: 2,
                   arc: nil,
                   vertical: nil,
                   horizontal: nil,
@@ -26037,6 +26044,7 @@ defmodule RenewexIconset.Predefined do
               relative: false,
               steps: [
                 %{
+                  sort: 0,
                   arc: nil,
                   horizontal: %{
                     x_offset_dynamic_unit: :minsize,
@@ -26057,6 +26065,7 @@ defmodule RenewexIconset.Predefined do
                   }
                 },
                 %{
+                  sort: 1,
                   relative: false,
                   arc: nil,
                   horizontal: nil,
@@ -26087,6 +26096,7 @@ defmodule RenewexIconset.Predefined do
               relative: false,
               steps: [
                 %{
+                  sort: 0,
                   arc: %{
                     angle: 0,
                     large: false,
@@ -26116,6 +26126,7 @@ defmodule RenewexIconset.Predefined do
                   relative: true
                 },
                 %{
+                  sort: 1,
                   arc: %{
                     angle: 0,
                     large: false,
@@ -26166,6 +26177,7 @@ defmodule RenewexIconset.Predefined do
           sort: 2,
           segments: [
             %{
+              sort: 0,
               relative: false,
               steps: [
                 %{
@@ -26251,6 +26263,7 @@ defmodule RenewexIconset.Predefined do
               relative: false,
               steps: [
                 %{
+                  sort: 0,
                   horizontal: %{
                     x_offset_dynamic_unit: :minsize,
                     x_offset_dynamic_value: 0,
@@ -26264,6 +26277,7 @@ defmodule RenewexIconset.Predefined do
                   arc: nil
                 },
                 %{
+                  sort: 1,
                   arc: nil,
                   horizontal: %{
                     x_offset_dynamic_unit: :minsize,
@@ -26284,6 +26298,7 @@ defmodule RenewexIconset.Predefined do
                   }
                 },
                 %{
+                  sort: 2,
                   relative: false,
                   arc: nil,
                   horizontal: nil,
