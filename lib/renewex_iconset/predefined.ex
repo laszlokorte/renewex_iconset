@@ -25823,6 +25823,490 @@ defmodule RenewexIconset.Predefined do
           stroke_color: "none"
         }
       ]
+    },
+    %{
+      name: "ellipse-arrow-inward-north-west",
+      id: "F0B14E19-1228-4E75-8E45-5F739FA4F801",
+      paths: [
+        %{
+          fill_color: "red",
+          sort: 0,
+          segments: [
+            %{
+              relative: false,
+              steps: [
+                %{
+                  arc: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :maxsize,
+                    x_value: -0.2
+                  },
+                  relative: true,
+                  vertical: %{
+                    y_offset_dynamic_unit: :minsize,
+                    y_offset_dynamic_value: 0,
+                    y_offset_operation: :min,
+                    y_offset_value_static: 0,
+                    y_unit: :maxsize,
+                    y_value: -0.2
+                  }
+                },
+                %{
+                  arc: nil,
+                  vertical: nil,
+                  horizontal: nil,
+                  relative: false
+                }
+              ],
+              x_offset_dynamic_unit: :minsize,
+              x_offset_dynamic_value: 0,
+              x_offset_operation: :min,
+              x_offset_value_static: 0,
+              x_unit: :width,
+              x_value: 0.2,
+              y_offset_dynamic_unit: :minsize,
+              y_offset_dynamic_value: 0,
+              y_offset_operation: :min,
+              y_offset_value_static: 0,
+              y_unit: :height,
+              y_value: 0.2
+            }
+          ],
+          stroke_color: "black"
+        },
+        %{
+          fill_color: "white",
+          sort: 1,
+          segments: [
+            %{
+              relative: false,
+              steps: [
+                %{
+                  arc: %{
+                    angle: 0,
+                    large: false,
+                    rx_offset_dynamic_unit: :minsize,
+                    rx_offset_dynamic_value: 0,
+                    rx_offset_operation: :min,
+                    rx_offset_value_static: 0,
+                    rx_unit: :width,
+                    rx_value: 0.5,
+                    ry_offset_dynamic_unit: :minsize,
+                    ry_offset_dynamic_value: 0,
+                    ry_offset_operation: :min,
+                    ry_offset_value_static: 0,
+                    ry_unit: :height,
+                    ry_value: 0.5,
+                    sweep: false
+                  },
+                  vertical: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :width,
+                    x_value: 1
+                  },
+                  relative: true
+                },
+                %{
+                  arc: %{
+                    angle: 0,
+                    large: false,
+                    rx_offset_dynamic_unit: :minsize,
+                    rx_offset_dynamic_value: 0,
+                    rx_offset_operation: :min,
+                    rx_offset_value_static: 0,
+                    rx_unit: :width,
+                    rx_value: 0.5,
+                    ry_offset_dynamic_unit: :minsize,
+                    ry_offset_dynamic_value: 0,
+                    ry_offset_operation: :min,
+                    ry_offset_value_static: 0,
+                    ry_unit: :height,
+                    ry_value: 0.5,
+                    sweep: false
+                  },
+                  vertical: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :width,
+                    x_value: -1
+                  },
+                  relative: true
+                }
+              ],
+              x_offset_dynamic_unit: :minsize,
+              x_offset_dynamic_value: 0,
+              x_offset_operation: :min,
+              x_offset_value_static: 0,
+              x_unit: :width,
+              x_value: 0,
+              y_offset_dynamic_unit: :minsize,
+              y_offset_dynamic_value: 0,
+              y_offset_operation: :min,
+              y_offset_value_static: 0,
+              y_unit: :height,
+              y_value: 0.5
+            }
+          ],
+          stroke_color: "black"
+        },
+        %{
+          fill_color: "white",
+          sort: 2,
+          segments: [
+            %{
+              relative: false,
+              steps: [
+                %{
+                  arc: nil,
+                  vertical: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :maxsize,
+                    x_value: -0.2
+                  },
+                  relative: true
+                },
+                %{
+                  arc: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :maxsize,
+                    x_value: 0.2
+                  },
+                  relative: true,
+                  vertical: %{
+                    y_offset_dynamic_unit: :minsize,
+                    y_offset_dynamic_value: 0,
+                    y_offset_operation: :min,
+                    y_offset_value_static: 0,
+                    y_unit: :maxsize,
+                    y_value: -0.2
+                  }
+                },
+                %{
+                  arc: nil,
+                  vertical: nil,
+                  horizontal: nil,
+                  relative: false
+                }
+              ],
+              x_offset_dynamic_unit: :minsize,
+              x_offset_dynamic_value: 0,
+              x_offset_operation: :min,
+              x_offset_value_static: 0,
+              x_unit: :width,
+              x_value: 0.2,
+              y_offset_dynamic_unit: :minsize,
+              y_offset_dynamic_value: 0,
+              y_offset_operation: :min,
+              y_offset_value_static: 0,
+              y_unit: :height,
+              y_value: 0.2
+            }
+          ],
+          stroke_color: "black"
+        }
+      ]
+    },
+    %{
+      name: "ellipse-double-in-arrow-inward-north-west",
+      id: "508A3F11-09DF-4D3D-9C7E-48D6A4F97127",
+      paths: [
+        %{
+          fill_color: "red",
+          sort: 0,
+          segments: [
+            %{
+              relative: false,
+              steps: [
+                %{
+                  arc: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :maxsize,
+                    x_value: -0.2
+                  },
+                  relative: true,
+                  vertical: %{
+                    y_offset_dynamic_unit: :minsize,
+                    y_offset_dynamic_value: 0,
+                    y_offset_operation: :min,
+                    y_offset_value_static: 0,
+                    y_unit: :maxsize,
+                    y_value: -0.2
+                  }
+                },
+                %{
+                  relative: false,
+                  arc: nil,
+                  horizontal: nil,
+                  vertical: nil
+                }
+              ],
+              x_offset_dynamic_unit: :minsize,
+              x_offset_dynamic_value: 0,
+              x_offset_operation: :min,
+              x_offset_value_static: 0,
+              x_unit: :width,
+              x_value: 0.2,
+              y_offset_dynamic_unit: :minsize,
+              y_offset_dynamic_value: 0,
+              y_offset_operation: :min,
+              y_offset_value_static: 0,
+              y_unit: :height,
+              y_value: 0.2
+            }
+          ],
+          stroke_color: "black"
+        },
+        %{
+          fill_color: "white",
+          sort: 1,
+          segments: [
+            %{
+              relative: false,
+              steps: [
+                %{
+                  arc: %{
+                    angle: 0,
+                    large: false,
+                    rx_offset_dynamic_unit: :minsize,
+                    rx_offset_dynamic_value: 0,
+                    rx_offset_operation: :min,
+                    rx_offset_value_static: 0,
+                    rx_unit: :width,
+                    rx_value: 0.5,
+                    ry_offset_dynamic_unit: :minsize,
+                    ry_offset_dynamic_value: 0,
+                    ry_offset_operation: :min,
+                    ry_offset_value_static: 0,
+                    ry_unit: :height,
+                    ry_value: 0.5,
+                    sweep: false
+                  },
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :width,
+                    x_value: 1
+                  },
+                  vertical: nil,
+                  relative: true
+                },
+                %{
+                  arc: %{
+                    angle: 0,
+                    large: false,
+                    rx_offset_dynamic_unit: :minsize,
+                    rx_offset_dynamic_value: 0,
+                    rx_offset_operation: :min,
+                    rx_offset_value_static: 0,
+                    rx_unit: :width,
+                    rx_value: 0.5,
+                    ry_offset_dynamic_unit: :minsize,
+                    ry_offset_dynamic_value: 0,
+                    ry_offset_operation: :min,
+                    ry_offset_value_static: 0,
+                    ry_unit: :height,
+                    ry_value: 0.5,
+                    sweep: false
+                  },
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :width,
+                    x_value: -1
+                  },
+                  vertical: nil,
+                  relative: true
+                }
+              ],
+              x_offset_dynamic_unit: :minsize,
+              x_offset_dynamic_value: 0,
+              x_offset_operation: :min,
+              x_offset_value_static: 0,
+              x_unit: :width,
+              x_value: 0,
+              y_offset_dynamic_unit: :minsize,
+              y_offset_dynamic_value: 1,
+              y_offset_operation: :min,
+              y_offset_value_static: 0,
+              y_unit: :height,
+              y_value: 0.5
+            }
+          ],
+          stroke_color: "black"
+        },
+        %{
+          fill_color: "white",
+          sort: 2,
+          segments: [
+            %{
+              relative: false,
+              steps: [
+                %{
+                  arc: %{
+                    angle: 0,
+                    large: false,
+                    rx_offset_dynamic_unit: :width,
+                    rx_offset_dynamic_value: -0.25,
+                    rx_offset_operation: :max,
+                    rx_offset_value_static: -10,
+                    rx_unit: :width,
+                    rx_value: 0.5,
+                    ry_offset_dynamic_unit: :height,
+                    ry_offset_dynamic_value: -0.25,
+                    ry_offset_operation: :max,
+                    ry_offset_value_static: -10,
+                    ry_unit: :height,
+                    ry_value: 0.5,
+                    sweep: false
+                  },
+                  vertical: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :width,
+                    x_offset_dynamic_value: -0.5,
+                    x_offset_operation: :max,
+                    x_offset_value_static: -20,
+                    x_unit: :width,
+                    x_value: 1
+                  },
+                  relative: true
+                },
+                %{
+                  arc: %{
+                    angle: 0,
+                    large: false,
+                    rx_offset_dynamic_unit: :width,
+                    rx_offset_dynamic_value: -0.25,
+                    rx_offset_operation: :max,
+                    rx_offset_value_static: -10,
+                    rx_unit: :width,
+                    rx_value: 0.5,
+                    ry_offset_dynamic_unit: :height,
+                    ry_offset_dynamic_value: -0.25,
+                    ry_offset_operation: :max,
+                    ry_offset_value_static: -10,
+                    ry_unit: :height,
+                    ry_value: 0.5,
+                    sweep: false
+                  },
+                  horizontal: %{
+                    x_offset_dynamic_unit: :width,
+                    x_offset_dynamic_value: 0.5,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 20,
+                    x_unit: :width,
+                    x_value: -1
+                  },
+                  vertical: nil,
+                  relative: true
+                }
+              ],
+              x_offset_dynamic_unit: :width,
+              x_offset_dynamic_value: 0.25,
+              x_offset_operation: :min,
+              x_offset_value_static: 10,
+              x_unit: :width,
+              x_value: 0,
+              y_offset_dynamic_unit: :minsize,
+              y_offset_dynamic_value: 0,
+              y_offset_operation: :min,
+              y_offset_value_static: 0,
+              y_unit: :height,
+              y_value: 0.5
+            }
+          ],
+          stroke_color: "black"
+        },
+        %{
+          fill_color: "white",
+          sort: 3,
+          segments: [
+            %{
+              relative: false,
+              steps: [
+                %{
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :maxsize,
+                    x_value: -0.2
+                  },
+                  vertical: nil,
+                  relative: true,
+                  arc: nil
+                },
+                %{
+                  arc: nil,
+                  horizontal: %{
+                    x_offset_dynamic_unit: :minsize,
+                    x_offset_dynamic_value: 0,
+                    x_offset_operation: :min,
+                    x_offset_value_static: 0,
+                    x_unit: :maxsize,
+                    x_value: 0.2
+                  },
+                  relative: true,
+                  vertical: %{
+                    y_offset_dynamic_unit: :minsize,
+                    y_offset_dynamic_value: 0,
+                    y_offset_operation: :min,
+                    y_offset_value_static: 0,
+                    y_unit: :maxsize,
+                    y_value: -0.2
+                  }
+                },
+                %{
+                  relative: false,
+                  arc: nil,
+                  horizontal: nil,
+                  vertical: nil
+                }
+              ],
+              x_offset_dynamic_unit: :minsize,
+              x_offset_dynamic_value: 0,
+              x_offset_operation: :min,
+              x_offset_value_static: 0,
+              x_unit: :width,
+              x_value: 0.2,
+              y_offset_dynamic_unit: :minsize,
+              y_offset_dynamic_value: 0,
+              y_offset_operation: :min,
+              y_offset_value_static: 0,
+              y_unit: :height,
+              y_value: 0.2
+            }
+          ],
+          stroke_color: "black"
+        }
+      ]
     }
   ]
 
