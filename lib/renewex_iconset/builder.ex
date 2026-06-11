@@ -46,7 +46,7 @@ defmodule RenewexIconset.Builder do
     |> Enum.join(" ")
   end
 
-  defp build_step(box, start_pos, {current_x, current_y} = current_pos, step) do
+  defp build_step(box, start_pos, {current_x, current_y} = current_pos, step = %{sort: _s}) do
     cond do
       step.arc ->
         rx = Position.build_coord(box, :x, true, Position.unify_coord(:rx, step.arc))

@@ -25833,6 +25833,7 @@ defmodule RenewexIconset.Predefined do
           sort: 0,
           segments: [
             %{
+              sort: 0,
               relative: false,
               steps: [
                 %{
@@ -25885,6 +25886,7 @@ defmodule RenewexIconset.Predefined do
           sort: 1,
           segments: [
             %{
+              sort: 0,
               relative: false,
               steps: [
                 %{
@@ -25969,6 +25971,7 @@ defmodule RenewexIconset.Predefined do
           sort: 2,
           segments: [
             %{
+              sort: 0,
               relative: false,
               steps: [
                 %{
@@ -26041,6 +26044,7 @@ defmodule RenewexIconset.Predefined do
           sort: 0,
           segments: [
             %{
+              sort: 0,
               relative: false,
               steps: [
                 %{
@@ -26093,6 +26097,7 @@ defmodule RenewexIconset.Predefined do
           sort: 1,
           segments: [
             %{
+              sort: 0,
               relative: false,
               steps: [
                 %{
@@ -26181,6 +26186,7 @@ defmodule RenewexIconset.Predefined do
               relative: false,
               steps: [
                 %{
+                  sort: 0,
                   arc: %{
                     angle: 0,
                     large: false,
@@ -26210,6 +26216,7 @@ defmodule RenewexIconset.Predefined do
                   relative: true
                 },
                 %{
+                  sort: 1,
                   arc: %{
                     angle: 0,
                     large: false,
@@ -26260,6 +26267,7 @@ defmodule RenewexIconset.Predefined do
           sort: 3,
           segments: [
             %{
+              sort: 0,
               relative: false,
               steps: [
                 %{
