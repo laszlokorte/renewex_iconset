@@ -18635,8 +18635,8 @@ defmodule RenewexIconset.Predefined do
       ]
     },
     %{
-      name: "bpmn-gateway-xor",
-      id: "DBE5AE4C-2C02-407A-A7EB-6C1AE34FA9C0",
+      name: "bpmn-gateway-and",
+      id: "9E281AFA-68C2-482E-879F-095A66D0124B",
       paths: [
         %{
           id: "e1dfc497-bf3e-4308-8c2b-5405a83ca2fe",
@@ -19033,8 +19033,8 @@ defmodule RenewexIconset.Predefined do
       ]
     },
     %{
-      name: "bpmn-gateway-and",
-      id: "9E281AFA-68C2-482E-879F-095A66D0124B",
+      name: "bpmn-gateway-xor",
+      id: "DBE5AE4C-2C02-407A-A7EB-6C1AE34FA9C0",
       paths: [
         %{
           id: "6cf5bf02-baa1-45cf-ac46-9222cb738467",
