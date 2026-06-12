@@ -88,4 +88,14 @@ defmodule RenewexIconsetTest do
              "#{name} is converted to list of paths"
     end
   end
+
+  test "all shape names are unique" do
+    duplicates =
+      RenewexIconset.Predefined.all()
+      |> Enum.map(& &1.name)
+      |> Enum.frequencies()
+      |> Enum.filter(fn {_value, count} -> count > 1 end)
+
+    assert duplicates == []
+  end
 end
